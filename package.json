@@ -1,0 +1,21 @@
+{
+  "name": "lab-jest-desde-cero",
+  "version": "1.0.0",
+  "description": "Basic demo of test with Jest",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "jest": {
+    "testEnviroment": "node"
+  },
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "author": "juanlopezdev",
+  "license": "ISC"
+}
